@@ -3,7 +3,13 @@
     --nasared:#E4002B;
     --nasawhite:#FFFFFF;
     --nasayellow:#e7f434;
-    --statusgreen:#6aa84f;
+    --statusgreen:#6aa84f; 
     --statusyellow:#ffd966;
-    --statusred:#cc0000;
+    --statusred:#cc0000; 
+    /* use var(--color) to use these colors*/
+} 
+
+body {
+    background-color: var(--nasawhite);
+    margin-bottom: 45px;
 }
