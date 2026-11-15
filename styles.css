@@ -10,7 +10,25 @@
 } 
 
 
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* to use the keyframe 
+.element {
+animation: appear linear;
+animation-duration: 2s; */
+
+
 body {
+    font-family: Helvetica;
     margin: 0;
     background-color: var(--nasawhite);
     margin-bottom: 45px;
@@ -37,7 +55,11 @@ footer {
     text-align: center;
 }
 
-
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
 .bpm{
     background-color: var(--nasablue);
@@ -52,4 +74,9 @@ footer {
 }
 .radiation{
     background-color: var(--statusred);
+}
+
+footer img {
+    width: 150px;
+    height: 150px;
 }
