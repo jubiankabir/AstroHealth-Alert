@@ -13,3 +13,17 @@ body {
     background-color: var(--nasawhite);
     margin-bottom: 45px;
 }
+
+#bpm{
+    background-color: var(--nasablue);
+}
+
+#sleep{
+    background-color: var(--nasared);
+}
+#fatigue{
+    background-color: var(--nasayellow);
+}
+#radiation{
+    background-color: var(--statusred);
+}
