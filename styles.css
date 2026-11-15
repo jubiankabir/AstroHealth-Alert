@@ -9,21 +9,47 @@
     /* use var(--color) to use these colors*/
 } 
 
+
 body {
+    margin: 0;
     background-color: var(--nasawhite);
     margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
-#bpm{
+header {
+    display: flex;
+    justify-content: space-between;
     background-color: var(--nasablue);
+    color: var(--nasawhite);
+    padding: 1rem;
+    text-align: center;
 }
 
-#sleep{
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--nasayellow);
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+.bpm{
+    background-color: var(--nasablue);
+    padding: 10px;
+}
+
+.sleep{
     background-color: var(--nasared);
 }
-#fatigue{
+.fatigue{
     background-color: var(--nasayellow);
 }
-#radiation{
+.radiation{
     background-color: var(--statusred);
 }
